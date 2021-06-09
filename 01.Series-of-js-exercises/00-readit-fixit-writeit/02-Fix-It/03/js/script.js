@@ -1,4 +1,4 @@
-const tvshows = [
+const movies = [
   `legion`,
   `sneaky pete`,
   `santa clarita diet`,
@@ -17,7 +17,7 @@ const tvshows = [
 ];
 
 document.write(`<ol>`);
-for (let i = 0; i < movies.length; i++) {
+for (let i = movies.length-1; i >= 0; i--) {
   document.write(`<li>${movies[i]}</li>`);
 }
 document.write(`</ol>`);
