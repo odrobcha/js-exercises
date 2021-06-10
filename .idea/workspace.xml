@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2a39399f-5cde-4ec2-b880-fd7cc0f73061" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/04/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/04/js/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/05/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/05/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/05/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/05/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/05/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/05/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/01-var-alert/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/01-var-alert/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/02-var-prompt/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/02-var-prompt/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/02-var-prompt/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/02-var-prompt/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/03-prompt-if/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/03-prompt-if/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/03-prompt-if/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/03-prompt-if/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/04-agt-confirm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/04-agt-confirm/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/04-agt-confirm/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/01-base/04-agt-confirm/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/01-change-bcg-one/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/01-change-bcg-one/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/01-change-bcg-one/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/01-change-bcg-one/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/02-change-bcg-two/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/02-change-bcg-two/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/02-change-bcg-two/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/02-change-bcg-two/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/03-change-bcg-three/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/03-change-bcg-three/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/03-change-bcg-three/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/02-colors/03-change-bcg-three/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +58,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/01.Series-of-js-exercises" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -62,6 +71,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/01.Series-of-js-exercises" />
       <recent name="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/04" />
       <recent name="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/02" />
       <recent name="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It" />
@@ -82,7 +92,8 @@
       <workItem from="1623226940613" duration="14427000" />
       <workItem from="1623246669576" duration="3129000" />
       <workItem from="1623270145222" duration="146000" />
-      <workItem from="1623308034316" duration="3360000" />
+      <workItem from="1623308034316" duration="3759000" />
+      <workItem from="1623324835915" duration="8151000" />
     </task>
     <servers />
   </component>

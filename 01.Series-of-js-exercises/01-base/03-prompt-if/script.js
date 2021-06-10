@@ -11,6 +11,18 @@
 
 (function() {
 
-  // your code here
+    let moreCake = prompt("Would you like more cake?").toLowerCase();
+   switch (moreCake){
+       case "yes":
+           document.write(`
+                <dialog open> <em> Good Choice! </em></dialog>
+           `);
+           break;
+       default:
+           document.write(`
+                <dialog open> <em> More cake for me then :p !</em></dialog>
+           `);
+           break;
+   }
 
 })();

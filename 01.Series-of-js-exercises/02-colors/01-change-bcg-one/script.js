@@ -11,6 +11,14 @@
 
 (function() {
 
-    // your code here
+    let buttons = document.getElementsByTagName("button");
+    for (const button of buttons){
+        button.addEventListener("click", (target) =>{
+           let color = button.getAttribute('id');
+           document.getElementById('body').style.background = color;
+        })
+    }
+
+
 
 })();

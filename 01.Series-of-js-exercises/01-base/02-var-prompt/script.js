@@ -10,7 +10,10 @@
 // You will have time to focus on it later.
 
 (function() {
-
-    // your code here
-
+ let person = prompt("Please enter your name");
+ if ((person != '') & (person !=null)){
+    document.write(`
+         <dialog open> <em> Hello, ${person}</em>! </dialog>
+    `)
+ }
 })();

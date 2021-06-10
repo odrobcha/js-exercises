@@ -38,13 +38,12 @@ const wrapText = (content, tag) =>{
 }
 
 let allTariffs=[...fees];
-
   for (const fee of fees) {
    for (const extra of extras){
-     let newTariff = {};
-     newTariff.price = fee.price + extra.price;
-     newTariff.title = fee.title + ' + ' + extra.title;
-     allTariffs.push(newTariff);
+     let newTarif = {};
+     newTarif.price = fee.price + extra.price;
+     newTarif.title = fee.title + ' + ' + extra.title;
+     allTariffs.push(newTarif);
      }
   };
 

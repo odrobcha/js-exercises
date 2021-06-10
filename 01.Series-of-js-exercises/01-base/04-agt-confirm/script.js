@@ -10,7 +10,19 @@
 // You will have time to focus on it later.
 
 (function() {
+    let checkData = false;
+    do{
+        let name = prompt("Enter your name, please");
+        let age = prompt("Your age");
+        let gender = prompt("Your gender");
+        let town = prompt("Your town");
 
-    // your code here
-
+        checkData = confirm(`Please, chek your data: 
+                name: ${name} 
+                age: ${age} 
+                gender: ${gender} 
+                town: ${town} 
+            ` );
+    }
+    while (!checkData);
 })();
