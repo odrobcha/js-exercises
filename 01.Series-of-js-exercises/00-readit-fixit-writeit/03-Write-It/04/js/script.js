@@ -45,9 +45,6 @@ const winnerList = [
 const wrapText = (content, tag) =>{
     return `<${tag}>${content}</${tag}>`;
 }
-const orderByYear = (a, b) => {
-    return b.age - a.age;
-};
 
 const orderLastName = (a, b) => {
     let splitA = a.actor.split(" ");

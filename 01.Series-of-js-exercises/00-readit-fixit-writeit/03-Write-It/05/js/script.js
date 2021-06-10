@@ -32,3 +32,27 @@ const extras = [
     title : "Supplement Atmos"
   }
 ];
+
+const wrapText = (content, tag) =>{
+  return `<${tag}>${content}</${tag}>`;
+}
+
+let allTariffs=[...fees];
+
+  for (const fee of fees) {
+   for (const extra of extras){
+     let newTariff = {};
+     newTariff.price = fee.price + extra.price;
+     newTariff.title = fee.title + ' + ' + extra.title;
+     allTariffs.push(newTariff);
+     }
+  };
+
+ const createTariffsList = (tariffs) => {
+   return `
+    <ul>${tariffs
+       .map(tarif => wrapText((wrapText(tarif.title, 'p') + wrapText(tarif.price, 'span')), 'li')).join(``)}
+    </ul>
+    `
+ }
+document.write(createTariffsList(allTariffs));
