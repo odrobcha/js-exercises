@@ -10,12 +10,31 @@
 // You will have time to focus on it later.
 
 (function() {
-    
-    // to get the value of an input: document.getElementById("element-id").value
+    let factorial = function factorialize(num) {
+        if (num < 0)
+            return "Please, enter positive integer value";
+        else if (num == 0)
+            return 1;
+        else {
+            return (num * factorialize(num - 1));
+        }
+    }
+
+    let resultEl = document.createElement("H1");
+    document.getElementsByClassName('material')[0].appendChild(resultEl);
 
     document.getElementById("run").addEventListener("click", function() {
 
-        // your code here
+        let inputNumber = parseFloat(document.getElementById('number').value);
+
+        if (Number.isInteger(inputNumber)){
+            resultEl.innerHTML = factorial(inputNumber);
+        } else {
+            resultEl.innerHTML = "Please, enter the integer"
+        }
+
+
+
 
     });
 
