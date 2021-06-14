@@ -10,7 +10,6 @@
 // You will have time to focus on it later.
 
 (function() {
-
     let moreCake = prompt("Would you like more cake?").toLowerCase();
    switch (moreCake){
        case "yes":
