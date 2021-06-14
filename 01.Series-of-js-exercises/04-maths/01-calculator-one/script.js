@@ -37,7 +37,7 @@
                 if (opTwo == '0'){
                     result = 'You can not divide on 0';
                 } else {
-                    result = (parseFloat(opOne) / parseFloat(opTwo)).toString();
+                    result = (parseFloat(opOne) / parseFloat(opTwo)).toFixed(2).toString();
                 }
             }
             resultEl.innerHTML = result;
