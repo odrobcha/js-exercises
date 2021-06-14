@@ -10,21 +10,57 @@
 // You will have time to focus on it later.
 
 (function() {
-    // to get the value of an input: document.getElementById("element-id").value
+
+    let resultEl = document.createElement("H1");
+    document.getElementsByClassName('material')[0].appendChild(resultEl);
+    function isNumber(string){
+        const pattern = new RegExp(/^\d+$/);
+        return  pattern.test(string);
+    }
+
+    function calculate(operation){
+        let opOne = document.getElementById('op-one').value;
+        let opTwo = document.getElementById('op-two').value;
+        let result = '';
+
+        if (isNumber(opOne) & isNumber(opTwo)){
+            if (operation == 'add'){
+                result = parseFloat(opOne) + parseFloat(opTwo);
+            }
+            if (operation == 'sub'){
+                result = parseFloat(opOne) - parseFloat(opTwo);
+            }
+            if (operation == 'mult'){
+                result = parseFloat(opOne) * parseFloat(opTwo);
+            }
+            if (operation == 'div'){
+                if (opTwo == '0'){
+                    result = 'You can not divide on 0';
+                } else {
+                    result = parseFloat(opOne) / parseFloat(opTwo);
+                }
+            }
+            resultEl.innerHTML = result.toString();
+
+        } else {
+            resultEl.innerHTML = 'Please, enter only numbers'
+        }
+
+    }
 
     document.getElementById("addition").addEventListener("click", function() {
-        // perform an addition
+        calculate('add');
     });
 
     document.getElementById("substraction").addEventListener("click", function() {
-        // perform an substraction
+        calculate('sub');
     });
 
     document.getElementById("multiplication").addEventListener("click", function() {
-        // perform an multiplication
+        calculate('mult');
     });
 
     document.getElementById("division").addEventListener("click", function() {
-        // perform an division
+        calculate('div');
     });
 })();
