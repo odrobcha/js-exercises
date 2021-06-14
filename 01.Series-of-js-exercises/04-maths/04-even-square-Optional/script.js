@@ -10,11 +10,19 @@
 // You will have time to focus on it later.
 
 (function() {
-
+    let resultEl = document.createElement("H1");
+    document.getElementsByClassName('material')[0].appendChild(resultEl);
+    let numbers = [];
+    for(let i = 0; i < 21; i++){
+        numbers[i] = i+1;
+    }
     document.getElementById("run").addEventListener("click", function() {
 
-        // your code here
-
+        let sqrNumbers = numbers.map((number) => {
+                return (number*number);
+        });
+        resultEl.innerHTML = sqrNumbers;
     });
+
 
 })();
