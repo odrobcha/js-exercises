@@ -10,9 +10,9 @@
 // You will have time to focus on it later.
 
 (function() {
-
     let resultEl = document.createElement("H1");
     document.getElementsByClassName('material')[0].appendChild(resultEl);
+
     function isNumber(string){
         const pattern = new RegExp(/^\d+$/);
         return  pattern.test(string);
@@ -25,22 +25,22 @@
 
         if (isNumber(opOne) & isNumber(opTwo)){
             if (operation == 'add'){
-                result = parseFloat(opOne) + parseFloat(opTwo);
+                result = (parseFloat(opOne) + parseFloat(opTwo)).toString();
             }
             if (operation == 'sub'){
-                result = parseFloat(opOne) - parseFloat(opTwo);
+                result = (parseFloat(opOne) - parseFloat(opTwo)).toString();
             }
             if (operation == 'mult'){
-                result = parseFloat(opOne) * parseFloat(opTwo);
+                result = (parseFloat(opOne) * parseFloat(opTwo)).toString();
             }
             if (operation == 'div'){
                 if (opTwo == '0'){
                     result = 'You can not divide on 0';
                 } else {
-                    result = parseFloat(opOne) / parseFloat(opTwo);
+                    result = (parseFloat(opOne) / parseFloat(opTwo)).toString();
                 }
             }
-            resultEl.innerHTML = result.toString();
+            resultEl.innerHTML = result;
 
         } else {
             resultEl.innerHTML = 'Please, enter only numbers'

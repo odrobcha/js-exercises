@@ -10,10 +10,41 @@
 // You will have time to focus on it later.
 
 (function() {
-    // to get the value of an input: document.getElementById("element-id").value
+    let resultEl = document.createElement("H1");
+    document.getElementsByClassName('material')[0].appendChild(resultEl);
 
-    var performOperation = function(operation) {
-        // perform the operation
+    function isNumber(string){
+        const pattern = new RegExp(/^\d+$/);
+        return  pattern.test(string);
+    }
+
+    let performOperation = function(operation) {
+        let opOne = document.getElementById('op-one').value;
+        let opTwo = document.getElementById('op-two').value;
+        let result = '';
+
+        if (isNumber(opOne) & isNumber(opTwo)){
+            if (operation == 'addition'){
+                result = (parseFloat(opOne) + parseFloat(opTwo)).toString();
+            }
+            if (operation == 'substraction'){
+                result = (parseFloat(opOne) - parseFloat(opTwo)).toString();
+            }
+            if (operation == 'multiplication'){
+                result = (parseFloat(opOne) * parseFloat(opTwo)).toString();
+            }
+            if (operation == 'division'){
+                if (opTwo == '0'){
+                    result = 'You can not divide on 0';
+                } else {
+                    result = (parseFloat(opOne) / parseFloat(opTwo)).toString();
+                }
+            }
+            resultEl.innerHTML = result;
+
+        } else {
+            resultEl.innerHTML = 'Please, enter only numbers'
+        }
     };
 
     Array.from(document.querySelectorAll("button.operator")).forEach(function($btn) {
