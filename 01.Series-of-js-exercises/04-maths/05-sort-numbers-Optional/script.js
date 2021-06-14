@@ -10,12 +10,12 @@
 // You will have time to focus on it later.
 
 (function() {
-
-    // to get the value of an input: document.getElementById("element-id").value
+    let resultEl = document.createElement("H1");
+    document.getElementsByClassName('material')[0].appendChild(resultEl);
 
     document.getElementById("run").addEventListener("click", function() {
-
-        // your code here
+        let inputNumbers = document.getElementById('numbers').value.split(',');
+        resultEl.innerHTML = inputNumbers.sort((a,b)=>a-b);
 
     });
 

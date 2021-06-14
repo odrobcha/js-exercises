@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a39399f-5cde-4ec2-b880-fd7cc0f73061" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/04-maths/04-even-square-Optional/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/04-maths/04-even-square-Optional/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/04-maths/05-sort-numbers-Optional/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/04-maths/05-sort-numbers-Optional/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +82,7 @@
       <workItem from="1623308034316" duration="3759000" />
       <workItem from="1623324835915" duration="10261000" />
       <workItem from="1623394771581" duration="9482000" />
-      <workItem from="1623653158667" duration="15632000" />
+      <workItem from="1623653158667" duration="16525000" />
     </task>
     <servers />
   </component>
