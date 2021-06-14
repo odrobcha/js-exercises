@@ -18,23 +18,24 @@
         else {
             return (num * factorialize(num - 1));
         }
-    }
+    };
+    function isNumber(string){
+        const pattern = new RegExp(/^\d+$/);
+        return  pattern.test(string);
+    };
 
     let resultEl = document.createElement("H1");
     document.getElementsByClassName('material')[0].appendChild(resultEl);
 
     document.getElementById("run").addEventListener("click", function() {
 
-        let inputNumber = parseFloat(document.getElementById('number').value);
+        let inputNumber = document.getElementById('number').value;
 
-        if (Number.isInteger(inputNumber)){
+        if (isNumber(inputNumber)){
             resultEl.innerHTML = factorial(inputNumber);
         } else {
             resultEl.innerHTML = "Please, enter the integer"
         }
-
-
-
 
     });
 
