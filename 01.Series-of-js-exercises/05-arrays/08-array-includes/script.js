@@ -12,7 +12,6 @@
 (function() {
 
     var fruits = [
-        "apple",
         "perry",
         "strawberry",
         "tomato",
@@ -25,7 +24,17 @@
         "grapes",
         "cherry",
     ];
+    document.getElementById('run').addEventListener('click', () => {
+      //  let answer = 'no';
+      //  fruits.find((fruit) => {
+      //      if (fruit.toLowerCase() == 'apple'){
+      //          answer = 'yes'
+      //      }
+      //  });
+        let answer =fruits.includes('apple');
+        console.log(answer);
+    })
 
-    // your code here
+
 
 })();

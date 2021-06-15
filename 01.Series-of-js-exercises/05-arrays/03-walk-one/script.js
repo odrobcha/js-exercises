@@ -26,6 +26,10 @@
         "cherry",
     ];
 
-    // your code here
+    document.getElementById('run').addEventListener('click', () => {
+        for (let fruit of fruits){
+            console.log(fruit);
+        }
+    });
 
 })();

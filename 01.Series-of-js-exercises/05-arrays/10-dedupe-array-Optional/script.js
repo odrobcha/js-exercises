@@ -27,6 +27,10 @@
         "raisin",
         "cerise",
     ];
+    document.getElementById('run').addEventListener('click', () => {
+        let uniq = [...new Set(fruits)];
+        console.log(uniq);
+    });
 
     // your code here
 })();

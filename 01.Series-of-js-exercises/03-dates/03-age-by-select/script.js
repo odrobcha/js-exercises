@@ -15,13 +15,23 @@
 
     document.getElementById('run').addEventListener('click', ()=>{
         let birthYear = document.getElementById('dob-year').value;
+        let birthMonth = document.getElementById('dob-month').value;
+        let birthDay = document.getElementById('dob-day').value;
         let date = new Date();
-        let currentYear = date.getFullYear();
-        let age = currentYear - birthYear;
-        h1Element.innerHTML = `You are ${age} years old`;
 
+        let age = date.getFullYear() - birthYear;
+        let month = date.getMonth() - birthMonth + 1;
+        let day = date.getDate() - birthDay;
 
+        if (age>0){
+            h1Element.innerHTML = `You are ${age} years old`;
+        } else {
+            if(month>0){
+                h1Element.innerHTML = `You are ${month} months old`;
+            } else {
+                h1Element.innerHTML = `You are ${day} days old`;
+            }
+        }
     })
-
 
 })();

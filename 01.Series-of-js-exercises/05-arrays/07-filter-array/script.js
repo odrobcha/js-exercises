@@ -89,6 +89,20 @@
         },
     ];
 
-    // your code here
+    document.getElementById('run').addEventListener('click', ()=>{
+
+       // people.find((person) => {
+       //     if (person.age > 18){
+       //         let adult = {firstname: person.firstname,
+       //                      lastname: person.lastname,
+       //                      age: person.age};
+       //         adults.push(adult);
+       //     }
+       // });
+       let adults = people.filter((person) => {
+           return  person.age > 18
+        })
+        console.log(adults);
+    });
 
 })();
