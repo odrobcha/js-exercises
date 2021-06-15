@@ -12,7 +12,7 @@
 (function() {
     let factorial = function factorialize(num) {
         if (num < 0)
-            return "Please, enter positive integer value";
+            return "Please, enter positive integer";
         else if (num == 0)
             return 1;
         else {
@@ -20,7 +20,7 @@
         }
     };
     function isNumber(string){
-        const pattern = new RegExp(/^\d+$/);
+        const pattern = new RegExp(/^-(\d)+$/);
         return  pattern.test(string);
     };
 
@@ -30,7 +30,6 @@
     document.getElementById("run").addEventListener("click", function() {
 
         let inputNumber = document.getElementById('number').value;
-
         if (isNumber(inputNumber)){
             resultEl.innerHTML = factorial(inputNumber);
         } else {
