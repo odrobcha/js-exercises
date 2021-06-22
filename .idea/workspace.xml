@@ -3,18 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="2a39399f-5cde-4ec2-b880-fd7cc0f73061" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/03-dates/03-age-by-select/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/03-dates/03-age-by-select/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/03-dates/03-age-by-select/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/03-dates/03-age-by-select/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/02-manipulate-array/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/02-manipulate-array/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/03-walk-one/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/03-walk-one/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/04-walk-two/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/04-walk-two/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/05-walk-three/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/05-walk-three/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/06-find-in-array/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/06-find-in-array/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/07-filter-array/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/07-filter-array/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/08-array-includes/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/08-array-includes/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/09-reduce-array/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/09-reduce-array/script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/10-dedupe-array-Optional/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/10-dedupe-array-Optional/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/11-rand-array-stats-Optional/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/05-arrays/11-rand-array-stats-Optional/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/_shared/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/_shared/css/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +83,12 @@
       <workItem from="1623308034316" duration="3759000" />
       <workItem from="1623324835915" duration="10261000" />
       <workItem from="1623394771581" duration="9482000" />
-      <workItem from="1623653158667" duration="31544000" />
+      <workItem from="1623653158667" duration="31924000" />
+      <workItem from="1623756857213" duration="2467000" />
+      <workItem from="1623831575458" duration="3064000" />
+      <workItem from="1624355271127" duration="5755000" />
+      <workItem from="1624363429182" duration="1664000" />
+      <workItem from="1624366175002" duration="2287000" />
     </task>
     <servers />
   </component>

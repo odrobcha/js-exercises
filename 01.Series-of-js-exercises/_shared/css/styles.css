@@ -236,3 +236,8 @@ dl dd {
 input.error {
     border-color: red;
 }
+
+.material #target table tr, .material #target table th{
+    border: 1px solid var(--light-blue);
+    height:20px;
+}

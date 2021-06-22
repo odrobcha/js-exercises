@@ -34,7 +34,6 @@
                 max = numbers[i];
             }
         };
-
         document.getElementById('min').innerHTML = min;
         document.getElementById('max').innerHTML = max;
         document.getElementById('sum').innerHTML = sum;
