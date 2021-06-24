@@ -18,8 +18,7 @@
             })
             .catch((error) => {
                 console.log(error);
-            })
-        c
+            });
     }
     document.getElementById('run').addEventListener('click', displayData);
 })();

@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="2a39399f-5cde-4ec2-b880-fd7cc0f73061" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/08-fetch/01-list-to-console/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/08-fetch/01-list-to-console/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/08-fetch/02-details/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/08-fetch/02-details/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/08-fetch/03-list-to-template-Optional/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/08-fetch/03-list-to-template-Optional/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/08-fetch/04-add-Optional/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/08-fetch/04-add-Optional/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01.Series-of-js-exercises/08-fetch/04-add-Optional/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/01.Series-of-js-exercises/08-fetch/04-add-Optional/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,7 +49,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../oml" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,11 +62,14 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/01.Series-of-js-exercises/_shared" />
       <recent name="$PROJECT_DIR$/01.Series-of-js-exercises" />
       <recent name="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/04" />
       <recent name="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/02" />
       <recent name="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It" />
-      <recent name="$PROJECT_DIR$/01.Series-of-js-exercises/00-readit-fixit-writeit/03-Write-It/01" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/01.Series-of-js-exercises/08-fetch/04-add-Optional" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -87,7 +95,9 @@
       <workItem from="1624355271127" duration="5755000" />
       <workItem from="1624363429182" duration="1664000" />
       <workItem from="1624366175002" duration="3045000" />
-      <workItem from="1624430540004" duration="12547000" />
+      <workItem from="1624430540004" duration="19437000" />
+      <workItem from="1624453233873" duration="5398000" />
+      <workItem from="1624517007456" duration="2317000" />
     </task>
     <servers />
   </component>

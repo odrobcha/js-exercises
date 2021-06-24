@@ -31,9 +31,11 @@
 
                 } else {
                     document.getElementById('hero-data').innerHTML = '';
+
                     let temp = document.getElementById("tpl-hero");
                     let clon = temp.content.cloneNode(true);
                     document.getElementById('hero-data').appendChild(clon);
+
                     document.querySelector('#hero-data .hero .title .name').innerHTML = foundHero.name;
                     document.querySelector('#hero-data .hero .title .alter-ego').innerHTML = foundHero.alterEgo;
                     document.querySelector('#hero-data .hero .powers').innerHTML = foundHero.abilities;
